@@ -30,10 +30,14 @@
     --overall-score-bg2: hsl(241, 81%, 54%);
     --cicrle-bg1: hsla(256, 72%, 46%, 1);
     --cicrle-bg2: hsla(241, 72%, 46%, 0);
-    --red: hsla(0, 100%, 67%, 0.15);
-    --yellow: hsla(39, 100%, 56%, 0.15);
-    --green: hsla(166, 100%, 37%, 0.15);
-    --blue: hsla(234, 85%, 45%, 0.15);
+    --red-alpha: hsla(0, 100%, 67%, 0.15);
+    --yellow-alpha: hsla(39, 100%, 56%, 0.15);
+    --green-alpha: hsla(166, 100%, 37%, 0.15);
+    --blue-alpha: hsla(234, 85%, 45%, 0.15);
+    --red: hsla(0, 100%, 67%);
+    --yellow: hsla(39, 100%, 56%);
+    --green: hsla(166, 100%, 37%);
+    --blue: hsla(234, 85%, 45%);
     --btn-bg: hsl(224, 30%, 27%);
 }
 
@@ -141,16 +145,32 @@ button:hover {
 }
 
 .Reaction {
-    background-color: var(--red);
+    background-color: var(--red-alpha);
+    color: var(--red);
 }
 .Memory {
-    background-color: var(--yellow);
+    background-color: var(--yellow-alpha);
 }
 .Verbal {
-    background-color: var(--green);
+    background-color: var(--green-alpha);
+    color: var(--green);
 }
 .Visual {
-    background-color: var(--blue);
+    background-color: var(--blue-alpha);
+    color: var(--blue);
+}
+
+.Memory p {
+    color: var(--yellow);
+}
+.Reaction p {
+    color: var(--red);
+}
+.Verbal p {
+    color: var(--green);
+}
+.Visual p {
+    color: var(--blue);
 }
 
 @media (max-width:720px) {
