@@ -160,16 +160,16 @@ button:hover {
     color: var(--blue);
 }
 
-.Memory p:first-child {
+.Memory > p {
     color: var(--yellow);
 }
-.Reaction p:first-child {
+.Reaction > p {
     color: var(--red);
 }
-.Verbal p:first-child {
+.Verbal > p {
     color: var(--green);
 }
-.Visual p:first-child {
+.Visual > p {
     color: var(--blue);
 }
 
