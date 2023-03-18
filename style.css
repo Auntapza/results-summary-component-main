@@ -146,18 +146,15 @@ button:hover {
 
 .Reaction {
     background-color: var(--red-alpha);
-    color: var(--red);
 }
 .Memory {
     background-color: var(--yellow-alpha);
 }
 .Verbal {
     background-color: var(--green-alpha);
-    color: var(--green);
 }
 .Visual {
     background-color: var(--blue-alpha);
-    color: var(--blue);
 }
 
 .Memory > p {
